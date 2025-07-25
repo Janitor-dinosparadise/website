@@ -3,7 +3,7 @@
 
 /* === DinosParadise Banner (auto-hide after 10s with pulse) === */
 html::before {
-  content: "⚡️ Discount mayhem is near: 30% off Supporter Shop, 15% off Token Shop. Your wallet’s sweating. You should be too! ⚡️";
+  content: "⚡️ Discount mayhem is near: 50% off Supporter Shop, 30% off Token Shop. Your wallet’s sweating. You should be too! ⚡️";
   display: block;
   position: fixed;
   top: 60px;
