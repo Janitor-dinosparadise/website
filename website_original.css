@@ -1191,3 +1191,20 @@ td.contentwrap {
 .col-sm-3.col-lg-2:hover .main-image img {
   transform: scale(1.35) !important;
 }
+
+/* === LCP Optimization Patch === */
+.collection-option-parent {
+  max-height: 600px !important;
+  overflow: hidden !important;
+}
+
+.collection-option-parent img,
+.purchase-package .image-container img {
+  loading: lazy;
+  decoding: async;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  width: 100%;
+  max-height: 180px;
+  border-radius: 12px;
+}
